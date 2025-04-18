@@ -4,7 +4,7 @@ import { getAuthCookie } from './cookies';
 
 // Create base axios instance
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://job-portal-backend-knyx.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
